@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markets type="array">
+  <futures>
+    <created-at type="datetime">2014-04-15T11:41:30-07:00</created-at>
+    <ends-at type="datetime">2014-04-30T11:41:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213725</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">10000.0</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:17-07:00</updated-at>
+    <name>What number will each of these be?</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">14</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2014-04-15T11:44:14-07:00</created-at>
+    <eod-price type="integer">14797</eod-price>
+    <id type="integer">928654748</id>
+    <price type="integer">14797</price>
+    <price-before-resolution type="integer">14797</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">14797</starting-price>
+    <name>AA</name>
+    <description></description>
+    <symbol>AA</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2014-04-15T11:44:22-07:00</created-at>
+    <eod-price type="integer">16371</eod-price>
+    <id type="integer">928654749</id>
+    <price type="integer">16371</price>
+    <price-before-resolution type="integer">16371</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">16371</starting-price>
+    <name>BB</name>
+    <description></description>
+    <symbol>BB</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2014-04-15T11:44:35-07:00</created-at>
+    <eod-price type="integer">14574</eod-price>
+    <id type="integer">928654750</id>
+    <price type="integer">14574</price>
+    <price-before-resolution type="integer">14574</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">14574</starting-price>
+    <name>DD</name>
+    <description></description>
+    <symbol>DD</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2014-04-15T11:44:41-07:00</created-at>
+    <eod-price type="integer">5721</eod-price>
+    <id type="integer">928654751</id>
+    <price type="integer">5721</price>
+    <price-before-resolution type="integer">5721</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5721</starting-price>
+    <name>EE</name>
+    <description></description>
+    <symbol>EE</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2014-04-15T11:44:48-07:00</created-at>
+    <eod-price type="integer">10720</eod-price>
+    <id type="integer">928654752</id>
+    <price type="integer">10720</price>
+    <price-before-resolution type="integer">10720</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">10720</starting-price>
+    <name>GG</name>
+    <description></description>
+    <symbol>GG</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2014-04-15T11:44:54-07:00</created-at>
+    <eod-price type="integer">9570</eod-price>
+    <id type="integer">928654753</id>
+    <price type="integer">9570</price>
+    <price-before-resolution type="integer">9570</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">9570</starting-price>
+    <name>HH</name>
+    <description></description>
+    <symbol>HH</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2014-04-15T11:45:05-07:00</created-at>
+    <eod-price type="integer">10770</eod-price>
+    <id type="integer">928654754</id>
+    <price type="integer">10770</price>
+    <price-before-resolution type="integer">10770</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">10770</starting-price>
+    <name>II</name>
+    <description></description>
+    <symbol>II</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2014-04-15T11:45:12-07:00</created-at>
+    <eod-price type="integer">6350</eod-price>
+    <id type="integer">928654755</id>
+    <price type="integer">6350</price>
+    <price-before-resolution type="integer">6350</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">6350</starting-price>
+    <name>JJ</name>
+    <description></description>
+    <symbol>JJ</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </futures>
+  <binary>
+    <created-at type="datetime">2013-10-30T13:25:28-07:00</created-at>
+    <ends-at type="datetime">2013-11-02T13:25:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213722</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>test some notifications</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">14</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-10-30T13:25:28-07:00</created-at>
+    <eod-price type="integer">5000</eod-price>
+    <id type="integer">928654739</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Yes</name>
+    <description nil="true"></description>
+    <symbol>YES</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </binary>
+  <binary>
+    <created-at type="datetime">2013-10-17T16:57:18-07:00</created-at>
+    <ends-at type="datetime">2014-06-13T16:57:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213720</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-10-17T16:57:00-07:00</starts-at>
+    <trades-count type="integer">4</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>hey here's a question?</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">14</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-10-17T16:57:19-07:00</created-at>
+    <eod-price type="integer">4871</eod-price>
+    <id type="integer">928654737</id>
+    <price type="integer">4871</price>
+    <price-before-resolution type="integer">4871</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Yes</name>
+    <description nil="true"></description>
+    <symbol>YES</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </binary>
+  <options>
+    <created-at type="datetime">2013-10-16T16:44:09-07:00</created-at>
+    <ends-at type="datetime">2014-08-30T16:44:00-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">852213718</id>
+    <notes-count type="integer">8</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-10-16T16:44:00-07:00</starts-at>
+    <trades-count type="integer">2</trades-count>
+    <updated-at type="datetime">2014-07-18T01:53:05-07:00</updated-at>
+    <name>test question in staging</name>
+    <description></description>
+    <closed type="boolean">false</closed>
+<membership><id type="integer">14</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-10-16T16:44:14-07:00</created-at>
+    <eod-price type="integer">5199</eod-price>
+    <id type="integer">928654735</id>
+    <price type="integer">5199</price>
+    <price-before-resolution type="integer">5199</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>one</name>
+    <description></description>
+    <symbol>ONE</symbol>
+    <closed type="boolean">false</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-10-16T16:44:19-07:00</created-at>
+    <eod-price type="integer">4801</eod-price>
+    <id type="integer">928654736</id>
+    <price type="integer">4801</price>
+    <price-before-resolution type="integer">4801</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>two</name>
+    <description></description>
+    <symbol>TWO</symbol>
+    <closed type="boolean">false</closed>
+  </stock>
+</stocks>
+  </options>
+  <binary>
+    <created-at type="datetime">2013-09-18T13:10:55-07:00</created-at>
+    <ends-at type="datetime">2013-09-19T13:10:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213717</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-09-18T13:10:00-07:00</starts-at>
+    <trades-count type="integer">1</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>asdfasdf</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990405</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-09-18T13:10:55-07:00</created-at>
+    <eod-price type="integer">5100</eod-price>
+    <id type="integer">928654734</id>
+    <price type="integer">5100</price>
+    <price-before-resolution type="integer">5100</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Yes</name>
+    <description nil="true"></description>
+    <symbol>YES</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </binary>
+  <binary>
+    <created-at type="datetime">2013-09-10T07:03:29-07:00</created-at>
+    <ends-at type="datetime">2013-09-11T07:03:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213716</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-09-10T07:03:00-07:00</starts-at>
+    <trades-count type="integer">13</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>Question to test probability estimate validation</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990405</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-09-10T07:03:29-07:00</created-at>
+    <eod-price type="integer">3453</eod-price>
+    <id type="integer">928654733</id>
+    <price type="integer">3453</price>
+    <price-before-resolution type="integer">3453</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Yes</name>
+    <description nil="true"></description>
+    <symbol>YES</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </binary>
+  <binary>
+    <created-at type="datetime">2013-09-06T09:42:51-07:00</created-at>
+    <ends-at type="datetime">2013-09-07T09:42:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213711</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">true</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-09-06T09:42:00-07:00</starts-at>
+    <trades-count type="integer">1</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>Binary Stock</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990405</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-09-06T09:42:51-07:00</created-at>
+    <eod-price type="integer">5050</eod-price>
+    <id type="integer">928654728</id>
+    <price type="integer">5050</price>
+    <price-before-resolution type="integer">5050</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Yes</name>
+    <description nil="true"></description>
+    <symbol>YES</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </binary>
+  <binary>
+    <created-at type="datetime">2013-09-04T11:49:57-07:00</created-at>
+    <ends-at type="datetime">2013-09-05T11:49:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213708</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">true</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-09-04T11:49:00-07:00</starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>test</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990405</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-09-04T11:49:57-07:00</created-at>
+    <eod-price type="integer">5000</eod-price>
+    <id type="integer">928654724</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Yes</name>
+    <description nil="true"></description>
+    <symbol>YES</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </binary>
+  <options>
+    <created-at type="datetime">2013-09-04T07:09:06-07:00</created-at>
+    <ends-at type="datetime">2013-09-05T07:09:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213707</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime">2013-09-04T07:57:43-07:00</resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-09-04T07:09:00-07:00</starts-at>
+    <trades-count type="integer">2</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>Conditional question test</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990405</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-09-04T07:09:15-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">928654722</id>
+    <price type="integer">0</price>
+    <price-before-resolution type="integer">5100</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime">2013-09-04T07:10:34-07:00</resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>OPTION1</name>
+    <description></description>
+    <symbol>1</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-09-04T07:09:38-07:00</created-at>
+    <eod-price type="integer">5000</eod-price>
+    <id type="integer">928654723</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean">true</refunded>
+    <resolved-at type="datetime">2013-09-04T07:57:43-07:00</resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>OPTION2</name>
+    <description></description>
+    <symbol>2</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <binary>
+    <created-at type="datetime">2013-08-14T06:54:19-07:00</created-at>
+    <ends-at type="datetime">2013-08-15T06:54:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213690</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-08-14T06:54:00-07:00</starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>new question</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990405</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-14T06:54:19-07:00</created-at>
+    <eod-price type="integer">5000</eod-price>
+    <id type="integer">928654699</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Yes</name>
+    <description nil="true"></description>
+    <symbol>YES</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </binary>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-21T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">852213657</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>highly_traded_market</name>
+    <description>highly_traded_market</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">14</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">3966</eod-price>
+    <id type="integer">96469102</id>
+    <price type="integer">3966</price>
+    <price-before-resolution type="integer">3966</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">3966</starting-price>
+    <name>Active Stock 2</name>
+    <description>Founders active stock 2</description>
+    <symbol>AST2</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">6034</eod-price>
+    <id type="integer">482955730</id>
+    <price type="integer">6034</price>
+    <price-before-resolution type="integer">6034</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">6034</starting-price>
+    <name>Active Stock 1</name>
+    <description>Founders active stock 1</description>
+    <symbol>AST1</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">100</eod-price>
+    <id type="integer">851915007</id>
+    <price type="integer">0</price>
+    <price-before-resolution type="integer">0</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">100</starting-price>
+    <name>Active Stock 2</name>
+    <description>Founders active stock 2</description>
+    <symbol>AST2</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <datemarket>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2023-08-11T09:59:37-07:00</ends-at>
+    <exclusive type="boolean" nil="true"></exclusive>
+    <id type="integer">649524637</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime">2013-08-22T10:43:28-07:00</resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">1</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>date_market_with_a_price?</name>
+    <description nil="true"></description>
+    <closed type="boolean">false</closed>
+<membership><id type="integer">827722210</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">31800</eod-price>
+    <id type="integer">222783071</id>
+    <price type="integer">31800</price>
+    <price-before-resolution type="integer">31800</price-before-resolution>
+    <refunded type="boolean">true</refunded>
+    <resolved-at type="datetime">2013-08-22T10:43:27-07:00</resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">0</starting-price>
+    <name>date_stock_with_a_price</name>
+    <description>date_stock_with_a_price</description>
+    <symbol>DATE</symbol>
+    <closed type="boolean">true</closed>
+    <seed-date type="datetime">2013-08-12T00:00:47Z</seed-date>
+  </stock>
+</stocks>
+  </datemarket>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-12T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">2003</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2013-08-04T09:59:37-07:00</updated-at>
+    <name>junk_market</name>
+    <description>junk_market</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">827722210</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-11T17:01:03-07:00</created-at>
+    <eod-price type="integer">10</eod-price>
+    <id type="integer">3</id>
+    <price type="integer">100</price>
+    <price-before-resolution type="integer">100</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">10</starting-price>
+    <name nil="true"></name>
+    <description nil="true"></description>
+    <symbol nil="true"></symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-11T17:01:03-07:00</created-at>
+    <eod-price type="integer">10</eod-price>
+    <id type="integer">4</id>
+    <price type="integer">100</price>
+    <price-before-resolution type="integer">100</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">10</starting-price>
+    <name nil="true"></name>
+    <description nil="true"></description>
+    <symbol nil="true"></symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <futures>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-12T09:59:37-07:00</ends-at>
+    <exclusive type="boolean" nil="true"></exclusive>
+    <id type="integer">2002</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1.0</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>futures_market</name>
+    <description>futures_market</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">827722210</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">10000</eod-price>
+    <id type="integer">5</id>
+    <price type="integer">10000</price>
+    <price-before-resolution type="integer">10000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">10000</starting-price>
+    <name>Hundred Dollar Stock</name>
+    <description>Hunderd dollar stock description</description>
+    <symbol>HDS</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">10000</eod-price>
+    <id type="integer">6</id>
+    <price type="integer">10100</price>
+    <price-before-resolution type="integer">10100</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">10000</starting-price>
+    <name>Stock with Position</name>
+    <description>Stock with Position</description>
+    <symbol>SWP</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </futures>
+  <discussion>
+    <created-at type="datetime">2013-08-06T16:59:37-07:00</created-at>
+    <ends-at type="datetime">2014-08-11T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">28</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2013-08-06T16:59:37-07:00</updated-at>
+    <name>discussion_market</name>
+    <description>discussion_market_desc</description>
+    <closed type="boolean">false</closed>
+<membership><id type="integer">827722210</id></membership>  </discussion>
+  <binary>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-12T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">26</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>binary_market</name>
+    <description>binary_market</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">827722210</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">5000</eod-price>
+    <id type="integer">928654638</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>1</name>
+    <description>1</description>
+    <symbol>1</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </binary>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-21T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">25</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>admins_active_market</name>
+    <description nil="true"></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">14</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">71</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Active Stock 1</name>
+    <description>admins_active_market_stock_1</description>
+    <symbol>AST1</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-21T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">20</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>traders_active_market</name>
+    <description nil="true"></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990391</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">70</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Active Stock 1</name>
+    <description>traders_active_market_stock_1</description>
+    <symbol>AST1</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-21T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">14</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>market_four_stocks_one_real_low</name>
+    <description>market_four_stocks_one_real_low</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990391</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">10000</eod-price>
+    <id type="integer">26</id>
+    <price type="integer">6600</price>
+    <price-before-resolution type="integer">6600</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">6600</starting-price>
+    <name>market_of_four_stock_1</name>
+    <description>market_of_four_stock_1</description>
+    <symbol>AST1</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">27</id>
+    <price type="integer">100</price>
+    <price-before-resolution type="integer">100</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">100</starting-price>
+    <name>market_of_four_stock_2</name>
+    <description>market_of_four_stock_2</description>
+    <symbol>AST2</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">28</id>
+    <price type="integer">3295</price>
+    <price-before-resolution type="integer">3295</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">3295</starting-price>
+    <name>market_of_four_stock_3</name>
+    <description>market_of_four_stock_3</description>
+    <symbol>AST3</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">29</id>
+    <price type="integer">5</price>
+    <price-before-resolution type="integer">5</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5</starting-price>
+    <name>market_of_four_stock_4</name>
+    <description>market_of_four_stock_4</description>
+    <symbol>AST3</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-21T09:59:37-07:00</ends-at>
+    <exclusive type="boolean" nil="true"></exclusive>
+    <id type="integer">13</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>non_exclusive_options_market</name>
+    <description>non_exclusive_options_market</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990391</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">24</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>one_options_stock</name>
+    <description>one_options_stock</description>
+    <symbol>EXC</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">25</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>second_options_stock</name>
+    <description>second_options_stock</description>
+    <symbol>EXC</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-21T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">12</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>exclusive_market_with_one_stock</name>
+    <description nil="true"></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990391</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">23</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>one_exclusive_stock</name>
+    <description>one_exclusive_stock</description>
+    <symbol>EXC</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-21T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">11</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:18-07:00</updated-at>
+    <name>market_for_huge_balance</name>
+    <description>market_for_huge_balance</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990391</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">20</id>
+    <price type="integer">6600</price>
+    <price-before-resolution type="integer">6600</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">6600</starting-price>
+    <name>huge_balance_trading_stock_1</name>
+    <description>huge_balance_trading_stock_1</description>
+    <symbol>AST1</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">10000</eod-price>
+    <id type="integer">21</id>
+    <price type="integer">100</price>
+    <price-before-resolution type="integer">100</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">100</starting-price>
+    <name>huge_balance_trading_stock_2</name>
+    <description>huge_balance_trading_stock_2</description>
+    <symbol>AST2</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">22</id>
+    <price type="integer">3300</price>
+    <price-before-resolution type="integer">3300</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">3300</starting-price>
+    <name>huge_balance_trading_stock_3</name>
+    <description>huge_balance_trading_stock_3</description>
+    <symbol>AST3</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-10T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">8</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime">2013-08-10T09:59:37-07:00</resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:19-07:00</updated-at>
+    <name>Resolved Market Question</name>
+    <description>Resolved Market Description</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">827722210</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">5000</eod-price>
+    <id type="integer">16</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime">2013-08-11T09:45:47-07:00</resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Resolved Stock 1</name>
+    <description>Founders resolved stock 1</description>
+    <symbol>RST1</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">5000</eod-price>
+    <id type="integer">17</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime">2013-08-11T17:00:47-07:00</resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Resolved Stock 2</name>
+    <description>Founders resolved stock 2</description>
+    <symbol>RST2</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-10T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">7</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:19-07:00</updated-at>
+    <name>Expired Market Question</name>
+    <description nil="true"></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">827722210</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">32</id>
+    <price type="integer">5</price>
+    <price-before-resolution type="integer">5</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5</starting-price>
+    <name>stock_in_founders_expired_market</name>
+    <description>stock_in_founders_expired_market</description>
+    <symbol>AST3</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-12T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">4</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:19-07:00</updated-at>
+    <name>Active Market Question</name>
+    <description>Active Market Description this is the description this is the description this is the description this is the description this is the description this is the description this is the description this is the description this is the description this is the description this is the description this is the description this is the description this is the description this is the description</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">827722210</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">5000</eod-price>
+    <id type="integer">9</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Active Stock 1</name>
+    <description>Founders active stock 1</description>
+    <symbol>AST1</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">5000</eod-price>
+    <id type="integer">10</id>
+    <price type="integer">5000</price>
+    <price-before-resolution type="integer">5000</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Active Stock 2</name>
+    <description>Founders active stock 2</description>
+    <symbol>AST2</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-12T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">2</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:19-07:00</updated-at>
+    <name>another_market</name>
+    <description>another_market</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">827722210</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">9900</eod-price>
+    <id type="integer">7</id>
+    <price type="integer">9900</price>
+    <price-before-resolution type="integer">9900</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">9900</starting-price>
+    <name>99 Dollar Option</name>
+    <description>99 Dollar Option Position</description>
+    <symbol>99O</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">100</eod-price>
+    <id type="integer">8</id>
+    <price type="integer">100</price>
+    <price-before-resolution type="integer">100</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">100</starting-price>
+    <name>1 Dollar Option</name>
+    <description>1 Dollar Option Position</description>
+    <symbol>1DO</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <options>
+    <created-at type="datetime">2013-08-04T09:59:37-07:00</created-at>
+    <ends-at type="datetime">2013-08-12T09:59:37-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">1</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">false</resolved>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime" nil="true"></starts-at>
+    <trades-count type="integer">0</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:19-07:00</updated-at>
+    <name>first_market</name>
+    <description>first_market</description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">827722210</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">10</eod-price>
+    <id type="integer">1</id>
+    <price type="integer">10</price>
+    <price-before-resolution type="integer">10</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">10</starting-price>
+    <name>First stock</name>
+    <description>First stock description</description>
+    <symbol>FSD</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-08-04T10:00:47-07:00</created-at>
+    <eod-price type="integer">10</eod-price>
+    <id type="integer">2</id>
+    <price type="integer">10</price>
+    <price-before-resolution type="integer">10</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime" nil="true"></resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">10</starting-price>
+    <name>First stock</name>
+    <description>Another stock description</description>
+    <symbol>FSD</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <binary>
+    <created-at type="datetime">2013-09-06T09:44:56-07:00</created-at>
+    <ends-at type="datetime">2013-09-07T09:44:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213712</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">true</resolved>
+    <resolved-at type="datetime">2013-09-06T09:52:12-07:00</resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-09-06T09:44:00-07:00</starts-at>
+    <trades-count type="integer">2</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:19-07:00</updated-at>
+    <name>New binary stockinator</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990405</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-09-06T09:44:56-07:00</created-at>
+    <eod-price type="integer">10000</eod-price>
+    <id type="integer">928654729</id>
+    <price type="integer">10000</price>
+    <price-before-resolution type="integer">5100</price-before-resolution>
+    <refunded type="boolean">false</refunded>
+    <resolved-at type="datetime">2013-09-06T09:52:12-07:00</resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Yes</name>
+    <description nil="true"></description>
+    <symbol>YES</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </binary>
+  <options>
+    <created-at type="datetime">2013-09-05T11:32:16-07:00</created-at>
+    <ends-at type="datetime">2013-09-06T11:32:00-07:00</ends-at>
+    <exclusive type="boolean">true</exclusive>
+    <id type="integer">852213710</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">true</resolved>
+    <resolved-at type="datetime">2013-09-05T11:33:19-07:00</resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-09-05T11:32:00-07:00</starts-at>
+    <trades-count type="integer">3</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:36-07:00</updated-at>
+    <name>who will win the gus macker?</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990405</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-09-05T11:32:20-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">928654726</id>
+    <price type="integer">0</price>
+    <price-before-resolution type="integer">4781</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime">2013-09-05T11:33:19-07:00</resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>a</name>
+    <description></description>
+    <symbol>A</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+  <stock>
+    <created-at type="datetime">2013-09-05T11:32:26-07:00</created-at>
+    <eod-price type="integer">10000</eod-price>
+    <id type="integer">928654727</id>
+    <price type="integer">10000</price>
+    <price-before-resolution type="integer">5219</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime">2013-09-05T11:33:18-07:00</resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>b</name>
+    <description></description>
+    <symbol>B</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </options>
+  <binary>
+    <created-at type="datetime">2013-09-05T10:23:39-07:00</created-at>
+    <ends-at type="datetime">2013-09-06T10:23:00-07:00</ends-at>
+    <exclusive type="boolean">false</exclusive>
+    <id type="integer">852213709</id>
+    <notes-count type="integer">0</notes-count>
+    <opinion type="boolean">false</opinion>
+    <resolved type="boolean">true</resolved>
+    <resolved-at type="datetime">2013-09-05T10:24:47-07:00</resolved-at>
+    <scale type="float">1</scale>
+    <slush nil="true"></slush>
+    <starts-at type="datetime">2013-09-05T10:23:00-07:00</starts-at>
+    <trades-count type="integer">2</trades-count>
+    <updated-at type="datetime">2014-07-18T07:57:36-07:00</updated-at>
+    <name>Will matt damon win the oscar for promised land?</name>
+    <description></description>
+    <closed type="boolean">true</closed>
+<membership><id type="integer">1035990405</id></membership><stocks type="array">
+  <stock>
+    <created-at type="datetime">2013-09-05T10:23:39-07:00</created-at>
+    <eod-price type="integer">0</eod-price>
+    <id type="integer">928654725</id>
+    <price type="integer">0</price>
+    <price-before-resolution type="integer">4821</price-before-resolution>
+    <refunded type="boolean" nil="true"></refunded>
+    <resolved-at type="datetime">2013-09-05T10:24:47-07:00</resolved-at>
+    <slush nil="true"></slush>
+    <starting-price type="integer">5000</starting-price>
+    <name>Yes</name>
+    <description nil="true"></description>
+    <symbol>YES</symbol>
+    <closed type="boolean">true</closed>
+  </stock>
+</stocks>
+  </binary>
+</markets>

@@ -1,5 +1,5 @@
 module Inkling
-  class Site < ApiResource
+  class Market < ApiResource
     
   end
 end

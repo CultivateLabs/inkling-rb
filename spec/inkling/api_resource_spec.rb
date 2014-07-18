@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe Inkling::ApiResource do
-  class Widget < Inkling::ApiResource
+  class ApiWidget < Inkling::ApiResource
     def self.attributes
       [:id, :name, :created_at]
     end
@@ -9,7 +9,7 @@ describe Inkling::ApiResource do
   end
 
   let(:widget) do
-    Widget.new
+    ApiWidget.new(client)
   end
 
   let(:client) do
@@ -18,20 +18,19 @@ describe Inkling::ApiResource do
 
   describe ".list" do
     it "makes a GET to the collection endpoint" do
-      expect(client).to receive(:make_request).with(:get, "widgets", {})
-      Widget.list(client)
+      expect(client).to receive(:make_request).with(:get, "api_widgets", {})
+      ApiWidget.list(client)
     end
 
     it "takes params" do
-      expect(client).to receive(:make_request).with(:get, "widgets", { some: "param", another: "here" })
-      Widget.list(client, some: "param", another: "here")
+      expect(client).to receive(:make_request).with(:get, "api_widgets", { some: "param", another: "here" })
+      ApiWidget.list(client, some: "param", another: "here")
     end
   end
 
   describe "#resource_name" do
     it "gives the underscored version of the resource name" do
-      class SomeWidget < Inkling::ApiResource; end;
-      expect(SomeWidget.resource_name).to eq("some_widget")
+      expect(ApiWidget.resource_name).to eq("api_widget")
     end
   end
 
