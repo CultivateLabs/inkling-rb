@@ -32,7 +32,7 @@ module Inkling
     def build_conn
       connection = Faraday.new(api_endpoint) do |co|
         co.request :url_encoded
-        co.response :xml
+        #co.response :xml
         #co.response :logger
         co.adapter *adapter_opts
       end

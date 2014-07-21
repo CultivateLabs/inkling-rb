@@ -8,6 +8,8 @@ describe Inkling::ApiResource do
     attr_accessor *attributes
   end
 
+  class Inkling::Parsers::ApiWidgetParser < Inkling::Parsers::BaseParser; end;
+
   let(:widget) do
     ApiWidget.new(client)
   end
@@ -19,11 +21,13 @@ describe Inkling::ApiResource do
   describe ".list" do
     it "makes a GET to the collection endpoint" do
       expect(client).to receive(:make_request).with(:get, "api_widgets", {})
+      expect_any_instance_of(Inkling::Parsers::ApiWidgetParser).to receive(:parse)
       ApiWidget.list(client)
     end
 
     it "takes params" do
       expect(client).to receive(:make_request).with(:get, "api_widgets", { some: "param", another: "here" })
+      expect_any_instance_of(Inkling::Parsers::ApiWidgetParser).to receive(:parse)
       ApiWidget.list(client, some: "param", another: "here")
     end
   end

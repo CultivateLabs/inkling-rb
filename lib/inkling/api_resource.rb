@@ -4,13 +4,14 @@ module Inkling
 
     attr_accessor :client
 
-    def initialize(c, attrs = {})
+    def initialize(c = nil, attrs = {})
       self.client = c
       initialize_attributes(attrs)
     end
 
     def self.list(c, params = {})
-      c.make_request(:get, collection_endpoint, params)
+      response = c.make_request(:get, collection_endpoint, params)
+      Object.const_get("Inkling::Parsers::#{self.to_s.split("::").last}Parser").new(response).parse
     end
 
     def self.resource_name
