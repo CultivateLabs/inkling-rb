@@ -9,6 +9,9 @@ require "inkling/api_resource"
 
 require "inkling/market"
 require "inkling/stock"
+require "inkling/price"
+
+require "pry"
 
 Dir["./lib/inkling/parsers/*.rb"].each{|f| require f }
 Dir["./lib/inkling/errors/*.rb"].each{|f| require f }

@@ -16,7 +16,7 @@ module Inkling
       if Inkling.environment == "production"
         "https://#{@subdomain}.inklingmarkets.com/"
       else
-        "https://#{@subdomain}.inklinghq.com/"
+        "http://#{@subdomain}.inklinghq.com/"
       end
     end
 
@@ -37,6 +37,7 @@ module Inkling
         co.adapter *adapter_opts
       end
       
+      connection.headers = {'Accept' => 'application/xml'}
       connection.basic_auth(@username, @password)
 
       connection
