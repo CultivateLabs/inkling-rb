@@ -35,6 +35,7 @@ module Inkling
         #co.response :xml
         #co.response :logger
         co.adapter *adapter_opts
+        co.options.timeout = 30
       end
       
       connection.headers = {'Accept' => 'application/xml'}
@@ -57,6 +58,8 @@ module Inkling
       else
         false
       end
+    rescue Faraday::Error::TimeoutError, Net::ReadTimeout
+      false
     rescue Faraday::Error::ParsingError => e
       binding.pry
       false
