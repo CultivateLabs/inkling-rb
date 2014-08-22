@@ -20,15 +20,20 @@ describe Inkling::ApiResource do
 
   describe ".list" do
     it "makes a GET to the collection endpoint" do
-      expect(client).to receive(:make_request).with(:get, "api_widgets", {})
+      expect(client).to receive(:make_request).with(:get, "api_widgets", {}).and_return(true.to_s)
       expect_any_instance_of(Inkling::Parsers::ApiWidgetParser).to receive(:parse)
       ApiWidget.list(client)
     end
 
     it "takes params" do
-      expect(client).to receive(:make_request).with(:get, "api_widgets", { some: "param", another: "here" })
+      expect(client).to receive(:make_request).with(:get, "api_widgets", { some: "param", another: "here" }).and_return(true.to_s)
       expect_any_instance_of(Inkling::Parsers::ApiWidgetParser).to receive(:parse)
-      ApiWidget.list(client, some: "param", another: "here")
+      ApiWidget.list(client, {some: "param", another: "here"})
+    end
+
+    it "handles when no response is returned" do
+      expect(client).to receive(:make_request).with(:get, "api_widgets", {}).and_return(false)
+      expect(ApiWidget.list(client)).to eq(false)
     end
   end
 
