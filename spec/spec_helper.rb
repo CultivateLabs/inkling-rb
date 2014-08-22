@@ -1,5 +1,5 @@
 require 'pry'
-require 'inkling'
+require 'inkling-rb'
 
 Dir["./spec/support/**/*.rb"].each {|f| require f }
 
