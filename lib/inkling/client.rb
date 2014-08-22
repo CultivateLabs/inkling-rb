@@ -58,10 +58,7 @@ module Inkling
       else
         false
       end
-    rescue Faraday::Error::TimeoutError, Net::ReadTimeout
-      false
-    rescue Faraday::Error::ParsingError => e
-      binding.pry
+    rescue Faraday::Error::TimeoutError, Net::ReadTimeout, Faraday::Error::ParsingError => e
       false
     end
   end
