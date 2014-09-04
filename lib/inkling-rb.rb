@@ -10,11 +10,13 @@ require "inkling/api_resource"
 require "inkling/market"
 require "inkling/stock"
 require "inkling/price"
+require "inkling/category"
 
 require "inkling/parsers/base_parser"
 require "inkling/parsers/market_parser"
 require "inkling/parsers/price_parser"
 require "inkling/parsers/stock_parser"
+require "inkling/parsers/category_parser"
 
 Dir["./lib/inkling/parsers/*.rb"].each{|f| require f }
 Dir["./lib/inkling/errors/*.rb"].each{|f| require f }
@@ -26,5 +28,5 @@ module Inkling
     def configure
       yield self
     end
-  end  
+  end
 end
