@@ -3,11 +3,11 @@ module Inkling
     attr_accessor :stocks
 
     def self.attributes
-      [:created_at, :ends_at, :exclusive, :id, :notes_count, :opinion, 
-       :resolved, :resolved_at, :scale, :slush, :starts_at, :trades, 
-       :updated_at, :name, :description, :closed, :membership_id, :type, :trades_count]
+      [:created_at, :ends_at, :exclusive, :id, :notes_count, :opinion,
+       :resolved, :resolved_at, :scale, :slush, :starts_at, :trades,
+       :updated_at, :name, :description, :closed, :membership_id, :type, :trades_count, :category_id]
     end
-    attr_accessor *attributes  
+    attr_accessor *attributes
 
     def stocks
       @stocks ||= []

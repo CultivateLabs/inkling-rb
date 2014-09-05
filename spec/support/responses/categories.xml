@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <categories type="array">
   <category>
-    <description></description>
+    <description>Detailed description</description>
     <id type="integer">1</id>
     <name>Entertainment</name>
   </category>

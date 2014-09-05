@@ -22,6 +22,8 @@ describe Inkling::Parsers::CategoryParser do
     it "parses a category node into a Category object" do
       expect(category.class).to eq(Inkling::Category)
       expect(category.id).to eq(1)
+      expect(category.name).to eq("Entertainment")
+      expect(category.description).to eq("Detailed description")
     end
   end
 end
