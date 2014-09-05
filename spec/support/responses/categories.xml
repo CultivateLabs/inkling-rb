@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories type="array">
+  <category>
+    <description>Detailed description</description>
+    <id type="integer">1</id>
+    <name>Entertainment</name>
+  </category>
+  <category>
+    <description></description>
+    <id type="integer">2</id>
+    <name>Politics and Current Events</name>
+  </category>
+  <category>
+    <description></description>
+    <id type="integer">5</id>
+    <name>Computers and Internet</name>
+  </category>
+  <category>
+    <description></description>
+    <id type="integer">6</id>
+    <name>Business and Economy</name>
+  </category>
+  <category>
+    <description></description>
+    <id type="integer">7</id>
+    <name>Science</name>
+  </category>
+  <category>
+    <description></description>
+    <id type="integer">8</id>
+    <name>Society and Culture</name>
+  </category>
+  <category>
+    <description></description>
+    <id type="integer">9</id>
+    <name>Health</name>
+  </category>
+  <category>
+    <description></description>
+    <id type="integer">10</id>
+    <name>Regional</name>
+  </category>
+  <category>
+    <description></description>
+    <id type="integer">11</id>
+    <name>Business of Inkling</name>
+  </category>
+  <category>
+    <description></description>
+    <id type="integer">689</id>
+    <name>Sports</name>
+  </category>
+</categories>
+

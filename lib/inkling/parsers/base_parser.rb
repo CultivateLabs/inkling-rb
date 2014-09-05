@@ -1,6 +1,7 @@
 module Inkling
   module Parsers
     class BaseParser
+      require 'time'
       attr_accessor :xml_doc
       def initialize(string = nil)
         if !string.nil?
@@ -24,7 +25,7 @@ module Inkling
             Time.parse(value)
           when "integer"
             value.to_i
-          when "float"            
+          when "float"
             value.to_f
           when "boolean"
             value == "true"
