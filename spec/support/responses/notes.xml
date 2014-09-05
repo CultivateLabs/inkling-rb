@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes type="array">
+  <note>
+    <created-at type="datetime">2014-09-05T12:44:59-07:00</created-at>
+    <depth type="integer">0</depth>
+    <id type="integer">794590773</id>
+    <likes-count type="integer">0</likes-count>
+    <market-id type="integer">852213713</market-id>
+    <membership-id type="integer">14</membership-id>
+    <parent-id type="integer" nil="true"></parent-id>
+    <updated-at type="datetime">2014-09-05T12:44:59-07:00</updated-at>
+    <text>something!</text>
+    <login>admin</login>
+  </note>
+  <note>
+    <created-at type="datetime">2014-09-05T13:13:18-07:00</created-at>
+    <depth type="integer">0</depth>
+    <id type="integer">794590774</id>
+    <likes-count type="integer">0</likes-count>
+    <market-id type="integer">852213713</market-id>
+    <membership-id type="integer">14</membership-id>
+    <parent-id type="integer" nil="true"></parent-id>
+    <updated-at type="datetime">2014-09-05T13:13:18-07:00</updated-at>
+    <text>another</text>
+    <login>admin</login>
+  </note>
+  <note>
+    <created-at type="datetime">2014-09-05T13:13:28-07:00</created-at>
+    <depth type="integer">0</depth>
+    <id type="integer">794590775</id>
+    <likes-count type="integer">0</likes-count>
+    <market-id type="integer">852213713</market-id>
+    <membership-id type="integer">14</membership-id>
+    <parent-id type="integer" nil="true"></parent-id>
+    <updated-at type="datetime">2014-09-05T13:13:28-07:00</updated-at>
+    <text>one more for good measure.</text>
+    <login>admin</login>
+  </note>
+</notes>
