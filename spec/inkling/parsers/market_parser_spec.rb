@@ -39,6 +39,7 @@ describe Inkling::Parsers::MarketParser do
       expect(market.description).to eq(nil)
       expect(market.closed).to eq(true)
       expect(market.membership_id).to eq(14)
+      expect(market.category_id).to eq(12)
     end
 
     it "parses the stocks into an array" do

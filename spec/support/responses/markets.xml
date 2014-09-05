@@ -17,6 +17,7 @@
     <name>What number will each of these be?</name>
     <description/>
     <closed type="boolean">true</closed>
+    <category-id type="integer">12</category-id>
     <membership>
       <id type="integer">14</id>
     </membership>
