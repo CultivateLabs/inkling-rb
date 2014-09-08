@@ -11,7 +11,7 @@ module Inkling
     def self.list(c, params = {}, obj = nil)
       endpoint = obj.nil? ? collection_endpoint : "#{obj_endpoint(obj)}/#{collection_endpoint}"
       response = c.make_request(:get, endpoint, params)
-      
+
       if response
         Object.const_get("Inkling::Parsers::#{self.to_s.split("::").last}Parser").new(response).parse
       else
@@ -24,7 +24,11 @@ module Inkling
     end
 
     def self.collection_endpoint
-      "#{resource_name}s"
+      if resource_name[-1] == 'y'
+        "#{resource_name[0..-2]}ies"
+      else
+        "#{resource_name}s"
+      end
     end
 
     def self.obj_endpoint(obj)

@@ -8,6 +8,13 @@ describe Inkling::ApiResource do
     attr_accessor *attributes
   end
 
+  class ApiWidgety < Inkling::ApiResource
+    def self.attributes
+      [:id, :name, :created_at]
+    end
+    attr_accessor *attributes
+  end
+
   class Inkling::Parsers::ApiWidgetParser < Inkling::Parsers::BaseParser; end;
 
   let(:widget) do
@@ -41,6 +48,18 @@ describe Inkling::ApiResource do
     it "gives the underscored version of the resource name" do
       expect(ApiWidget.resource_name).to eq("api_widget")
     end
+  end
+
+  describe "collection_endpoint" do
+
+    it "correctly pluralizes the resource names" do
+      expect(ApiWidget.collection_endpoint).to eq("api_widgets")
+    end
+
+    it "correctly pluralizes the resource names" do
+      expect(ApiWidgety.collection_endpoint).to eq("api_widgeties")
+    end
+
   end
 
 end
