@@ -32,10 +32,10 @@ module Inkling
     end
 
     def self.obj_endpoint(obj)
-      if obj.class.resource_name[-1] == 'y'
-        "#{obj.class.resource_name[0..-2]}ies/#{obj.id}"
+      if obj.class.to_s.underscore[-1] == 'y'
+        "#{obj.class.to_s.underscore[0..-2]}ies/#{obj.id}"
       else
-        "#{obj.class.resource_name}s/#{obj.id}"
+        "#{obj.class.to_s.underscore}s/#{obj.id}"
       end
     end
 

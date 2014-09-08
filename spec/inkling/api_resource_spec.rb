@@ -22,6 +22,14 @@ describe Inkling::ApiResource do
     attr_accessor *attributes
   end
 
+  class TestNoInheritance
+    def self.attributes
+      [:id, :name, :created_at]
+    end
+    attr_accessor *attributes
+  end
+
+
   class Inkling::Parsers::ApiWidgetParser < Inkling::Parsers::BaseParser; end;
 
   let(:widget) do
@@ -73,12 +81,12 @@ describe Inkling::ApiResource do
 
   end
 
-  describe "object_endpoint" do
+  describe "obj_endpoint" do
 
     it "gives the correct endpoint based on id" do
-      note = Note.new
-      note.id = 3
-      expect(Note.obj_endpoint(note)).to eq("notes/3")
+      tni = TestNoInheritance.new
+      tni.id = 3
+      expect(Note.obj_endpoint(tni)).to eq("test_no_inheritances/3")
     end
 
   end
