@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trades type="array">
+  <sell>
+    <id type="integer">967188452</id>
+    <membership>
+      <id type="integer">14</id>
+    </membership>
+    <stock>
+      <id type="integer">928654638</id>
+    </stock>
+    <created-at type="datetime">2014-09-08T14:39:54-07:00</created-at>
+    <quantity type="integer">90</quantity>
+    <paid type="integer">-542894</paid>
+    <reason></reason>
+    <starting_price>6457</starting_price>
+    <final_price>5598</final_price>
+    <login>admin</login>
+  </sell>
+  <buy>
+    <id type="integer">967188451</id>
+    <membership>
+      <id type="integer">14</id>
+    </membership>
+    <stock>
+      <id type="integer">928654638</id>
+    </stock>
+    <created-at type="datetime">2014-09-08T14:39:49-07:00</created-at>
+    <quantity type="integer">90</quantity>
+    <paid type="integer">542895</paid>
+    <reason></reason>
+    <starting_price>5598</starting_price>
+    <final_price>6457</final_price>
+    <login>admin</login>
+  </buy>
+  <buy>
+    <id type="integer">967188450</id>
+    <membership>
+      <id type="integer">14</id>
+    </membership>
+    <stock>
+      <id type="integer">928654638</id>
+    </stock>
+    <created-at type="datetime">2014-09-08T14:39:44-07:00</created-at>
+    <quantity type="integer">60</quantity>
+    <paid type="integer">317957</paid>
+    <reason></reason>
+    <starting_price>5000</starting_price>
+    <final_price>5598</final_price>
+    <login>admin</login>
+  </buy>
+</trades>
