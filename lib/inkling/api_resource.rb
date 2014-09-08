@@ -32,11 +32,19 @@ module Inkling
     end
 
     def self.obj_endpoint(obj)
-      "#{obj.class.resource_name}s/#{obj.id}"
+      if obj.class.resource_name[-1] == 'y'
+        "#{obj.class.resource_name[0..-2]}ies/#{obj.id}"
+      else
+        "#{obj.class.resource_name}s/#{obj.id}"
+      end
     end
 
     def member_endpoint
-      "#{self.class.resource_name}s/#{self.id}"
+      if self.class.resource_name[-1] == 'y'
+        "#{self.class.resource_name[0..-2]}ies/#{self.id}"
+      else
+        "#{self.class.resource_name}s/#{self.id}"
+      end
     end
 
   end

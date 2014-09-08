@@ -16,4 +16,5 @@ describe Inkling::Market do
       expect(markets.first.class).to eq(Inkling::Market)
     end
   end
+
 end
