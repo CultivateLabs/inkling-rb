@@ -12,8 +12,8 @@
     <quantity type="integer">90</quantity>
     <paid type="integer">-542894</paid>
     <reason></reason>
-    <starting_price>6457</starting_price>
-    <final_price>5598</final_price>
+    <starting_price type="integer">6457</starting_price>
+    <final_price type="integer">5598</final_price>
     <login>admin</login>
   </sell>
   <buy>
@@ -28,8 +28,8 @@
     <quantity type="integer">90</quantity>
     <paid type="integer">542895</paid>
     <reason></reason>
-    <starting_price>5598</starting_price>
-    <final_price>6457</final_price>
+    <starting_price type="integer">5598</starting_price>
+    <final_price type="integer">6457</final_price>
     <login>admin</login>
   </buy>
   <buy>
@@ -44,8 +44,8 @@
     <quantity type="integer">60</quantity>
     <paid type="integer">317957</paid>
     <reason></reason>
-    <starting_price>5000</starting_price>
-    <final_price>5598</final_price>
+    <starting_price type="integer">5000</starting_price>
+    <final_price type="integer">5598</final_price>
     <login>admin</login>
   </buy>
 </trades>

@@ -4,7 +4,7 @@ module Inkling
       def parse
         trades = []
         xml_doc.xpath("//trades").children.each do |trade_node|
-          trades << trade_trade_node(trade_node)
+          trades << parse_trade_node(trade_node)
         end
 
         trades
@@ -12,7 +12,7 @@ module Inkling
 
       def parse_trade_node(trade_node)
         attrs = trade_node.to_hash
-        trade = Inkling::trade.new
+        trade = Inkling::Trade.new
         attrs[:kids].each do |node|
           if node[:name] == "stock"
             trade.stock_id = parse_node_value(node[:kids].first)
