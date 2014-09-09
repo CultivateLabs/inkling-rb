@@ -6,8 +6,5 @@ module Inkling
     end
     attr_accessor *attributes
 
-    def self.collection_endpoint
-      "#{resource_name}s.xml"
-    end
   end
 end
