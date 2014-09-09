@@ -22,14 +22,6 @@ describe Inkling::ApiResource do
     attr_accessor *attributes
   end
 
-  class TestNoInheritance
-    def self.attributes
-      [:id, :name, :created_at]
-    end
-    attr_accessor *attributes
-  end
-
-
   class Inkling::Parsers::ApiWidgetParser < Inkling::Parsers::BaseParser; end;
 
   let(:widget) do
@@ -77,16 +69,6 @@ describe Inkling::ApiResource do
 
     it "correctly pluralizes the resource names" do
       expect(ApiWidgety.collection_endpoint).to eq("api_widgeties")
-    end
-
-  end
-
-  describe "obj_endpoint" do
-
-    it "gives the correct endpoint based on id" do
-      tni = TestNoInheritance.new
-      tni.id = 3
-      expect(Note.obj_endpoint(tni)).to eq("test_no_inheritances/3")
     end
 
   end

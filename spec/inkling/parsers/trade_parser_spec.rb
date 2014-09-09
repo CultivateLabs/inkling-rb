@@ -5,12 +5,22 @@ describe Inkling::Parsers::TradeParser do
     Inkling::Parsers::TradeParser.new(File.read("./spec/support/responses/trades.xml"))
   end
 
+  let(:trade_parser_empty) do
+    Inkling::Parsers::TradeParser.new(File.read("./spec/support/responses/trades_empty.xml"))
+  end
+
   describe ".parse" do
     it "returns an array of trade objects" do
       trades = trade_parser.parse
       expect(trades.length).to eq(3)
       expect(trades.first.class).to eq(Inkling::Trade)
     end
+
+    it "returns an empty array when there is an empty trade" do
+      trades = trade_parser_empty.parse
+      expect(trades.length).to eq(0)
+    end
+
   end
 
   describe "#parse_trade_node" do
