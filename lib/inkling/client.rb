@@ -37,7 +37,7 @@ module Inkling
         co.adapter *adapter_opts
         co.options.timeout = 30
       end
-      
+
       connection.headers = {'Accept' => 'application/xml'}
       connection.basic_auth(@username, @password)
 
@@ -45,14 +45,14 @@ module Inkling
     end
 
     def make_request(type, path, params = nil)
-      url = "#{api_endpoint}#{path}"
+      url = "#{api_endpoint}#{path}.xml"
       response = case type
       when :get
         conn.get(url, params)
       when :post
         conn.post(url, params)
       end
-      
+
       if response.success?
         response.body
       else
