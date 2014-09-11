@@ -47,5 +47,13 @@ module Inkling
       end
     end
 
+    def self.descendants
+      @descendants ||= []
+    end
+
+    def self.inherited(descendant)
+      descendants << descendant
+    end
+
   end
 end

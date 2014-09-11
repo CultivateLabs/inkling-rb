@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats type="array">
+  <stat>
+    <stock_id type="integer">20</stock_id>
+    <stock_name>huge_balance_trading_stock_1</stock_name>
+    <stat_type>quantity_stat</stat_type>
+    <login>admin</login>
+    <membership_id type="integer">14</membership_id>
+    <percent type="float">100.0</percent>
+    <predictions type="integer">2</predictions>
+  </stat>
+  <stat>
+    <stock_id type="integer">20</stock_id>
+    <stock_name>huge_balance_trading_stock_1</stock_name>
+    <stat_type>percentage_stat</stat_type>
+    <login>admin</login>
+    <membership_id type="integer">14</membership_id>
+    <percent type="float">52.07</percent>
+    <predictions type="integer">2</predictions>
+  </stat>
+  <stat>
+    <stock_id type="integer">22</stock_id>
+    <stock_name>huge_balance_trading_stock_3</stock_name>
+    <stat_type>quantity_stat</stat_type>
+    <login>trader</login>
+    <membership_id type="integer">1035990391</membership_id>
+    <percent type="float">100.0</percent>
+    <predictions type="integer">1</predictions>
+  </stat>
+  <stat>
+    <stock_id type="integer">22</stock_id>
+    <stock_name>huge_balance_trading_stock_3</stock_name>
+    <stat_type>percentage_stat</stat_type>
+    <login>trader</login>
+    <membership_id type="integer">1035990391</membership_id>
+    <percent type="float">90.3</percent>
+    <predictions type="integer">1</predictions>
+  </stat>
+  <stat>
+    <stock_id type="integer">21</stock_id>
+    <stock_name>huge_balance_trading_stock_2</stock_name>
+    <stat_type>quantity_stat</stat_type>
+    <login>admin</login>
+    <membership_id type="integer">14</membership_id>
+    <percent type="float">100.0</percent>
+    <predictions type="integer">1</predictions>
+  </stat>
+  <stat>
+    <stock_id type="integer">21</stock_id>
+    <stock_name>huge_balance_trading_stock_2</stock_name>
+    <stat_type>quantity_stat</stat_type>
+    <login>trader</login>
+    <membership_id type="integer">1035990391</membership_id>
+    <percent type="float">-100.0</percent>
+    <predictions type="integer">1</predictions>
+  </stat>
+  <stat>
+    <stock_id type="integer">21</stock_id>
+    <stock_name>huge_balance_trading_stock_2</stock_name>
+    <stat_type>percentage_stat</stat_type>
+    <login>admin</login>
+    <membership_id type="integer">14</membership_id>
+    <percent type="float">1.29</percent>
+    <predictions type="integer">1</predictions>
+  </stat>
+  <stat>
+    <stock_id type="integer">21</stock_id>
+    <stock_name>huge_balance_trading_stock_2</stock_name>
+    <stat_type>percentage_stat</stat_type>
+    <login>trader</login>
+    <membership_id type="integer">1035990391</membership_id>
+    <percent type="float">-9.46</percent>
+    <predictions type="integer">1</predictions>
+  </stat>
+</stats>
+

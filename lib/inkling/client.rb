@@ -1,5 +1,6 @@
 require "faraday"
 require "faraday_middleware"
+require "net/http"
 
 module Inkling
   class Client

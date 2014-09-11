@@ -16,22 +16,22 @@ describe Inkling::Client do
 
   describe "#make_request" do
     it "makes GET requests" do
-      expect(client.conn).to receive(:get).with("#{endpoint}path", nil).and_return(double(body: "", success?: true))
+      expect(client.conn).to receive(:get).with("#{endpoint}path.xml", nil).and_return(double(body: "", success?: true))
       client.make_request(:get, "path")
     end
 
     it "makes POST requests" do
-      expect(client.conn).to receive(:post).with("#{endpoint}path", {title: "A new doc", content: "Some doc body"}).and_return(double(body: "", success?: true))
+      expect(client.conn).to receive(:post).with("#{endpoint}path.xml", {title: "A new doc", content: "Some doc body"}).and_return(double(body: "", success?: true))
       client.make_request(:post, "path", {title: "A new doc", content: "Some doc body"})
     end
 
     it "handles GET timeouts" do
-      expect(client.conn).to receive(:get).with("#{endpoint}path", nil).and_raise(Faraday::Error::TimeoutError, Net::ReadTimeout)
+      expect(client.conn).to receive(:get).with("#{endpoint}path.xml", nil).and_raise(Faraday::Error::TimeoutError, Net::ReadTimeout)
       expect(client.make_request(:get, "path")).to eq(false)
     end
 
     it "handles POST timeouts" do
-      expect(client.conn).to receive(:post).with("#{endpoint}path", {title: "Stuff", content: "Things & Misc"}).and_raise(Faraday::Error::TimeoutError, Net::ReadTimeout)
+      expect(client.conn).to receive(:post).with("#{endpoint}path.xml", {title: "Stuff", content: "Things & Misc"}).and_raise(Faraday::Error::TimeoutError, Net::ReadTimeout)
       expect(client.make_request(:post, "path", {title: "Stuff", content: "Things & Misc"})).to eq(false)
     end
   end
