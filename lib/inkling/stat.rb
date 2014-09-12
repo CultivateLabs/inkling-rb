@@ -7,7 +7,7 @@ module Inkling
     attr_accessor *attributes
 
     def self.resource_name
-      "dashboard_stats"
+      "dashboard_stat"
     end
 
   end
