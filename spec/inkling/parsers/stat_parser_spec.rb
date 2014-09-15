@@ -5,6 +5,10 @@ describe Inkling::Parsers::StatParser do
     Inkling::Parsers::StatParser.new(File.read("./spec/support/responses/stats.xml"))
   end
 
+  let(:stat_parser_empty) do
+    Inkling::Parsers::StatParser.new(File.read("./spec/support/responses/stats_empty.xml"))
+  end
+
   describe ".parse" do
     it "returns an array of stat objects" do
       stats = stat_parser.parse
@@ -12,6 +16,10 @@ describe Inkling::Parsers::StatParser do
       expect(stats.first.class).to eq(Inkling::QuantityStat)
     end
 
+    it "returns an empty array when there is an empty trade" do
+      stats = stat_parser_empty.parse
+      expect(stats.length).to eq(0)
+    end
   end
 
   describe "#parse_stat_node" do
