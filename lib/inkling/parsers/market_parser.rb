@@ -22,6 +22,11 @@ module Inkling
             end
           elsif node[:name] == "membership"
             market.membership_id = parse_node_value(node[:kids].first)
+          elsif node[:name] == "tags"
+            tag_parser = Inkling::Parsers::TagParser.new
+            node[:kids].each do |tag_node|
+              market.tags << tag_parser.parse_tag_node(tag_node)
+            end
           else
             attr_name = node[:name].gsub("-", "_")
             market.send("#{attr_name}=", parse_node_value(node)) if market.respond_to?("#{attr_name}=")
