@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags type="array">
+  <tag>
+    <id type="integer">1</id>
+    <name>Uno</name>
+  </tag>
+  <tag>
+    <id type="integer">2</id>
+    <name>Dos</name>
+  </tag>
+  <tag>
+    <id type="integer">3</id>
+    <name>Tres</name>
+  </tag>
+  <tag>
+    <id type="integer">4</id>
+    <name>Cuatro</name>
+  </tag>
+  <tag>
+    <id type="integer">5</id>
+    <name>Cinco</name>
+  </tag>
+  <tag>
+    <id type="integer">6</id>
+    <name>Seis</name>
+  </tag>
+  <tag>
+    <id type="integer">7</id>
+    <name>Siete</name>
+  </tag>
+  <tag>
+    <id type="integer">8</id>
+    <name>Ocho</name>
+  </tag>
+</tags>
+
