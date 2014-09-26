@@ -46,5 +46,10 @@ describe Inkling::Parsers::MarketParser do
       expect(market.stocks.length).to eq(8)
       expect(market.stocks.first.class).to eq(Inkling::Stock)
     end
+
+    it "parses the tags into an array" do
+      expect(market.tags.length).to eq(2)
+      expect(market.tags.first.class).to eq(Inkling::Tag)
+    end
   end
 end
