@@ -1,122 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prices type="array">
   <price>
+    <id type="integer">1</id>
     <created-at type="datetime">2014-04-15T11:48:12-07:00</created-at>
     <value type="integer">10770</value>
 <stock><id type="integer">928654754</id></stock>  </price>
   <price>
+    <id type="integer">2</id>
     <created-at type="datetime">2014-04-15T11:48:11-07:00</created-at>
     <value type="integer">6350</value>
 <stock><id type="integer">928654755</id></stock>  </price>
   <price>
+    <id type="integer">3</id>
     <created-at type="datetime">2014-04-15T11:48:11-07:00</created-at>
     <value type="integer">9570</value>
 <stock><id type="integer">928654753</id></stock>  </price>
   <price>
+    <id type="integer">4</id>
     <created-at type="datetime">2014-04-15T11:48:11-07:00</created-at>
     <value type="integer">10720</value>
 <stock><id type="integer">928654752</id></stock>  </price>
   <price>
+    <id type="integer">5</id>
     <created-at type="datetime">2014-04-15T11:48:11-07:00</created-at>
     <value type="integer">5721</value>
 <stock><id type="integer">928654751</id></stock>  </price>
   <price>
+    <id type="integer">6</id>
     <created-at type="datetime">2014-04-15T11:48:11-07:00</created-at>
     <value type="integer">14574</value>
 <stock><id type="integer">928654750</id></stock>  </price>
   <price>
+    <id type="integer">7</id>
     <created-at type="datetime">2014-04-15T11:48:11-07:00</created-at>
     <value type="integer">16371</value>
 <stock><id type="integer">928654749</id></stock>  </price>
   <price>
+    <id type="integer">8</id>
     <created-at type="datetime">2014-04-15T11:48:11-07:00</created-at>
     <value type="integer">14797</value>
 <stock><id type="integer">928654748</id></stock>  </price>
   <price>
+    <id type="integer">9</id>
     <created-at type="datetime">2014-04-15T11:46:14-07:00</created-at>
     <value type="integer">63500</value>
 <stock><id type="integer">928654755</id></stock>  </price>
   <price>
+    <id type="integer">10</id>
     <created-at type="datetime">2014-04-15T11:46:14-07:00</created-at>
     <value type="integer">100</value>
 <stock><id type="integer">928654754</id></stock>  </price>
   <price>
+    <id type="integer">11</id>
     <created-at type="datetime">2014-04-15T11:46:14-07:00</created-at>
     <value type="integer">95700</value>
 <stock><id type="integer">928654753</id></stock>  </price>
   <price>
+    <id type="integer">12</id>
     <created-at type="datetime">2014-04-15T11:46:14-07:00</created-at>
     <value type="integer">100</value>
 <stock><id type="integer">928654752</id></stock>  </price>
   <price>
+    <id type="integer">13</id>
     <created-at type="datetime">2014-04-15T11:46:13-07:00</created-at>
     <value type="integer">57200</value>
 <stock><id type="integer">928654751</id></stock>  </price>
   <price>
+    <id type="integer">14</id>
     <created-at type="datetime">2014-04-15T11:46:13-07:00</created-at>
     <value type="integer">100</value>
 <stock><id type="integer">928654750</id></stock>  </price>
   <price>
+    <id type="integer">15</id>
     <created-at type="datetime">2014-04-15T11:46:13-07:00</created-at>
     <value type="integer">100</value>
 <stock><id type="integer">928654749</id></stock>  </price>
   <price>
+    <id type="integer">16</id>
     <created-at type="datetime">2014-04-15T11:46:13-07:00</created-at>
     <value type="integer">100</value>
 <stock><id type="integer">928654748</id></stock>  </price>
   <price>
+    <id type="integer">17</id>
     <created-at type="datetime">2014-04-15T09:51:59-07:00</created-at>
     <value type="integer">4801</value>
 <stock><id type="integer">928654736</id></stock>  </price>
   <price>
+    <id type="integer">18</id>
     <created-at type="datetime">2014-04-15T09:51:59-07:00</created-at>
     <value type="integer">5199</value>
 <stock><id type="integer">928654735</id></stock>  </price>
   <price>
+    <id type="integer">19</id>
     <created-at type="datetime">2014-04-15T09:51:50-07:00</created-at>
     <value type="integer">4900</value>
 <stock><id type="integer">928654736</id></stock>  </price>
   <price>
+    <id type="integer">20</id>
     <created-at type="datetime">2014-04-15T09:51:50-07:00</created-at>
     <value type="integer">5100</value>
 <stock><id type="integer">928654735</id></stock>  </price>
   <price>
+    <id type="integer">21</id>
     <created-at type="datetime">2014-04-15T09:51:19-07:00</created-at>
     <value type="integer">4871</value>
 <stock><id type="integer">928654737</id></stock>  </price>
   <price>
+    <id type="integer">22</id>
     <created-at type="datetime">2014-04-15T09:50:49-07:00</created-at>
     <value type="integer">5370</value>
 <stock><id type="integer">928654737</id></stock>  </price>
   <price>
+    <id type="integer">23</id>
     <created-at type="datetime">2013-12-09T21:11:27-08:00</created-at>
     <value type="integer">5270</value>
 <stock><id type="integer">928654737</id></stock>  </price>
   <price>
+    <id type="integer">24</id>
     <created-at type="datetime">2013-10-30T13:25:46-07:00</created-at>
     <value type="integer">5000</value>
 <stock><id type="integer">928654739</id></stock>  </price>
   <price>
+    <id type="integer">25</id>
     <created-at type="datetime">2013-10-17T17:05:39-07:00</created-at>
     <value type="integer">5300</value>
 <stock><id type="integer">928654737</id></stock>  </price>
   <price>
+    <id type="integer">26</id>
     <created-at type="datetime">2013-10-17T16:57:33-07:00</created-at>
     <value type="integer">5000</value>
 <stock><id type="integer">928654737</id></stock>  </price>
   <price>
+    <id type="integer">27</id>
     <created-at type="datetime">2013-10-16T16:44:31-07:00</created-at>
     <value type="integer">5000</value>
 <stock><id type="integer">928654736</id></stock>  </price>
   <price>
+    <id type="integer">28</id>
     <created-at type="datetime">2013-10-16T16:44:31-07:00</created-at>
     <value type="integer">5000</value>
 <stock><id type="integer">928654735</id></stock>  </price>
   <price>
+    <id type="integer">29</id>
     <created-at type="datetime">2013-09-18T13:12:12-07:00</created-at>
     <value type="integer">5100</value>
 <stock><id type="integer">928654734</id></stock>  </price>
   <price>
+    <id type="integer">30</id>
     <created-at type="datetime">2013-09-18T13:11:03-07:00</created-at>
     <value type="integer">5000</value>
 <stock><id type="integer">928654734</id></stock>  </price>
