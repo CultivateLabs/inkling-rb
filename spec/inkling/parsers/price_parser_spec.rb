@@ -21,6 +21,7 @@ describe Inkling::Parsers::PriceParser do
 
     it "parses a price node into a Price object" do
       expect(price.class).to eq(Inkling::Price)
+      expect(price.id).to eq(1)
       expect(price.created_at).to eq(Time.parse("2014-04-15T11:48:12-07:00"))
       expect(price.value).to eq(10770)
       expect(price.stock_id).to eq(928654754)
