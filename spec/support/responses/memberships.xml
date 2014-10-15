@@ -1,0 +1,359 @@
+<memberships type="array">
+  <membership>
+    <id type="integer">1035990414</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Bruce</first-name>
+      <id type="integer">1000027</id>
+      <last-name>Wayne</last-name>
+      <login>bdubs</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>bruce@wayne.com</email>
+    </user>
+    <balance type="integer">500000</balance>
+  </membership>
+  <membership>
+    <id type="integer">1035990413</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Alvin</first-name>
+      <id type="integer">1000026</id>
+      <last-name>Chipmunk</last-name>
+      <login>chipsfordays</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>avlin@chimpumks.com</email>
+    </user>
+    <balance type="integer">500000</balance>
+  </membership>
+  <membership>
+    <id type="integer">1035990405</id>
+    <portfolio type="integer">50500</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name nil="true"/>
+      <id type="integer">1000018</id>
+      <last-name nil="true"/>
+      <login>bs</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>bill@simmons.com</email>
+    </user>
+    <balance type="integer">551003</balance>
+  </membership>
+  <membership>
+    <id type="integer">1035990391</id>
+    <portfolio type="integer">250</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Jalen.</first-name>
+      <id type="integer">2</id>
+      <last-name>Rose</last-name>
+      <login>rosegarden</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>jalen@rose.com</email>
+    </user>
+    <balance type="integer">5048000</balance>
+  </membership>
+  <membership>
+    <id type="integer">827722210</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">3</id>
+      <last-name>Founder</last-name>
+      <login>founder</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>test_founder@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">5000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">599553524</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Root</first-name>
+      <id type="integer">6</id>
+      <last-name>User</last-name>
+      <login>root_user</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>root_user_test@inklingmarkets.com.com</email>
+    </user>
+    <balance type="integer">5000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">346856985</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">24</id>
+      <last-name>Trade</last-name>
+      <login>trader_with_resolved_position</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>trader_with_resolved_position@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">5000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">228466266</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">2002</id>
+      <last-name>Trade2</last-name>
+      <login>trader2</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>test_trader2@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">5000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">32</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">false</active>
+      <first-name nil="true"/>
+      <id type="integer">25</id>
+      <last-name nil="true"/>
+      <login>zxc$3ds</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email nil="true"/>
+    </user>
+    <balance type="integer">5000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">29</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">14</id>
+      <last-name>Huge</last-name>
+      <login>user_with_two_shorts</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>user_with_two_shorts@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">500000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">28</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">13</id>
+      <last-name>Huge</last-name>
+      <login>user_with_huge_position</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>user_with_huge_position@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">500000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">22</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">11</id>
+      <last-name>trader_without_positions</last-name>
+      <login>trader_without_positions</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>test_trader_without_positions@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">50000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">20</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">10</id>
+      <last-name>Small</last-name>
+      <login>user_with_1000</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>user_with_1000@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">100000</balance>
+  </membership>
+  <membership>
+    <id type="integer">19</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">9</id>
+      <last-name>Huge</last-name>
+      <login>user_with_a_huge_balance</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>test_user_with_a_huge_balance@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">50000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">16</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">8</id>
+      <last-name>Trader</last-name>
+      <login>another_user_on_public_site</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>another_user_on_public_site@Inklingmarkets.com</email>
+    </user>
+    <balance type="integer">5000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">15</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Another</first-name>
+      <id type="integer">5</id>
+      <last-name>Founder</last-name>
+      <login>another_founder</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>test_another_founder@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">5000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">14</id>
+    <portfolio type="integer">-735284</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">4</id>
+      <last-name>Admin</last-name>
+      <login>admin</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>test_admin@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">5788539</balance>
+  </membership>
+  <membership>
+    <id type="integer">12</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Mr.</first-name>
+      <id type="integer">2003</id>
+      <last-name>Trade3</last-name>
+      <login>trader3</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>test_trader3@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">5000000</balance>
+  </membership>
+  <membership>
+    <id type="integer">9</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean" nil="true"/>
+      <first-name nil="true"/>
+      <id type="integer">1000004</id>
+      <last-name nil="true"/>
+      <login/>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>test_zeroguy@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">0</balance>
+  </membership>
+  <membership>
+    <id type="integer">8</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Long</first-name>
+      <id type="integer">1000003</id>
+      <last-name>Bob</last-name>
+      <login>longbob</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>test_longbob@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">1</balance>
+  </membership>
+  <membership>
+    <id type="integer">6</id>
+    <portfolio type="integer">0</portfolio>
+    <user>
+      <active type="boolean">true</active>
+      <first-name>Bob</first-name>
+      <id type="integer">1000001</id>
+      <last-name>Guy</last-name>
+      <login>bob</login>
+      <push-closing-market-alerts type="boolean">true</push-closing-market-alerts>
+      <push-new-comment-alerts type="boolean">true</push-new-comment-alerts>
+      <push-new-market-alerts type="boolean">true</push-new-market-alerts>
+      <push-price-alerts type="boolean">true</push-price-alerts>
+      <email>test_bob@inklingmarkets.com</email>
+    </user>
+    <balance type="integer">1000000</balance>
+  </membership>
+</memberships>
