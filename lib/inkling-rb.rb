@@ -17,6 +17,7 @@ require "inkling/trade"
 require "inkling/stat"
 require "inkling/percentage_stat"
 require "inkling/quantity_stat"
+require "inkling/membership"
 
 require "inkling/parsers/base_parser"
 require "inkling/parsers/market_parser"
@@ -27,6 +28,7 @@ require "inkling/parsers/note_parser"
 require "inkling/parsers/tag_parser"
 require "inkling/parsers/trade_parser"
 require "inkling/parsers/stat_parser"
+require "inkling/parsers/membership_parser"
 
 Dir["./lib/inkling/parsers/*.rb"].each{|f| require f }
 Dir["./lib/inkling/errors/*.rb"].each{|f| require f }
