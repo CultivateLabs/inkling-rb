@@ -11,14 +11,30 @@ module Inkling
       @username = opts[:username]
       @password = opts[:password]
       @subdomain = opts[:subdomain]
+      @domain = opts[:domain]
+      if @domain.nil?
+        if Inkling.environment == "production"
+          @domain = 'inklingmarkets.com'
+        else
+          @domain = 'inklingstaging.com'
+        end
+      end
+      @protocol = opts[:protocol]
+      if @protocol.nil?
+        if Inkling.environment == "production"
+          @protocol = 'https'
+        else
+          @protocol = 'http'
+        end
+      end
     end
 
     def api_endpoint
-      if Inkling.environment == "production"
-        "https://#{@subdomain}.inklingmarkets.com/"
-      else
-        "http://#{@subdomain}.inklinghq.com/"
-      end
+        if Inkling.environment == "production"
+          "#{@protocol}://#{@subdomain}.#{@domain}/"
+        else
+          "#{@protocol}://#{@subdomain}.#{@domain}/"
+        end
     end
 
     # for easy test stubbing
