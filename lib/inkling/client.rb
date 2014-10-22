@@ -30,11 +30,7 @@ module Inkling
     end
 
     def api_endpoint
-        if Inkling.environment == "production"
-          "#{@protocol}://#{@subdomain}.#{@domain}/"
-        else
-          "#{@protocol}://#{@subdomain}.#{@domain}/"
-        end
+      "#{@protocol}://#{@subdomain}.#{@domain}/"
     end
 
     # for easy test stubbing
