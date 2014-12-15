@@ -16,7 +16,7 @@ module Inkling
         if Inkling.environment == "production"
           @domain = 'inklingmarkets.com'
         else
-          @domain = 'inklingstaging.com'
+          @domain = 'inklinghq.com'
         end
       end
       @protocol = opts[:protocol]

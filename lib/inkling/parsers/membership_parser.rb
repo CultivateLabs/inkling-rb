@@ -19,6 +19,11 @@ module Inkling
               attr_name = unode[:name].gsub("-", "_")
               membership.send("#{attr_name}=", parse_node_value(unode)) if (membership.respond_to?("#{attr_name}=") && attr_name != 'id' )
             end
+          elsif node[:name] == "answers"
+            answer_parser = Inkling::Parsers::AnswerParser.new
+            node[:kids].each do |answer_node|
+              membership.answers << answer_parser.parse_answer_node(answer_node)
+            end
           else
             attr_name = node[:name].gsub("-", "_")
             membership.send("#{attr_name}=", parse_node_value(node)) if membership.respond_to?("#{attr_name}=")
