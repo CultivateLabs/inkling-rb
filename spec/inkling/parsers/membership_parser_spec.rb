@@ -29,6 +29,10 @@ describe Inkling::Parsers::MembershipParser do
       expect(membership.login).to eq("bdubs")
       expect(membership.email).to eq("bruce@wayne.com")
       expect(membership.balance).to eq(500000)
+      expect(membership.answers.length).to eq(3)
+      expect(membership.answers.first.private).to eq(false)
+      expect(membership.answers.first.question_id).to eq(1234)
+      expect(membership.answers.first.text).to eq("Alpha")
     end
 
   end

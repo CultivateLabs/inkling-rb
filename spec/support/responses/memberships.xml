@@ -15,6 +15,23 @@
       <email>bruce@wayne.com</email>
     </user>
     <balance type="integer">500000</balance>
+    <answers type="array">
+      <answer>
+        <private type="boolean">false</private>
+        <question-id type="integer">1234</question-id>
+        <text>Alpha</text>
+      </answer>
+      <answer>
+        <private type="boolean">false</private>
+        <question-id type="integer">1235</question-id>
+        <text>Blue</text>
+      </answer>
+      <answer>
+        <private type="boolean">false</private>
+        <question-id type="integer">1236</question-id>
+        <text>3</text>
+      </answer>
+    </answers>
   </membership>
   <membership>
     <id type="integer">1035990413</id>

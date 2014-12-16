@@ -1,0 +1,32 @@
+<answers type="array">
+  <answer>
+    <private type="boolean">false</private>
+    <question-id type="integer">1234</question-id>
+    <text>Alpha</text>
+  </answer>
+  <answer>
+    <private type="boolean">false</private>
+    <question-id type="integer">1235</question-id>
+    <text>Blue</text>
+  </answer>
+  <answer>
+    <private type="boolean">false</private>
+    <question-id type="integer">1236</question-id>
+    <text>3</text>
+  </answer>
+  <answer>
+    <private type="boolean">false</private>
+    <question-id type="integer">1237</question-id>
+    <text>Northwestern</text>
+  </answer>
+  <answer>
+    <private type="boolean">false</private>
+    <question-id type="integer">1238</question-id>
+    <text>Chicago Bulls</text>
+  </answer>
+  <answer>
+    <private type="boolean">false</private>
+    <question-id type="integer">1239</question-id>
+    <text>Never</text>
+  </answer>
+</answers>
