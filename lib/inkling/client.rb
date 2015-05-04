@@ -11,6 +11,7 @@ module Inkling
       @username = opts[:username]
       @password = opts[:password]
       @subdomain = opts[:subdomain]
+      @port = opts[:port]
       @domain = opts[:domain]
       if @domain.nil?
         if Inkling.environment == "production"
@@ -30,7 +31,11 @@ module Inkling
     end
 
     def api_endpoint
-      "#{@protocol}://#{@subdomain}.#{@domain}/"
+      if @port.nil?
+        "#{@protocol}://#{@subdomain}.#{@domain}/"
+      else
+        "#{@protocol}://#{@subdomain}.#{@domain}:#{@port}/"
+      end
     end
 
     # for easy test stubbing
