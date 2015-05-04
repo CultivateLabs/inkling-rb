@@ -45,6 +45,7 @@ describe Inkling::Client, "#conn" do
     client = Inkling::Client.new(username: "admin", password: "Ch1cag0", subdomain: "home")
     expect(client.conn.headers["Authorization"]).to match(/Basic/)
   end
+
 end
 
 describe Inkling::Client, "#api_endpoint" do
@@ -60,6 +61,3 @@ describe Inkling::Client, "#api_endpoint" do
   end
 
 end
-
-
-
