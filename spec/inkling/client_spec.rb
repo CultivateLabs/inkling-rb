@@ -46,3 +46,20 @@ describe Inkling::Client, "#conn" do
     expect(client.conn.headers["Authorization"]).to match(/Basic/)
   end
 end
+
+describe Inkling::Client, "#api_endpoint" do
+
+  it "doesn't use a port when none is passed in" do
+    client = Inkling::Client.new(username: "user@example.com", password: "password", subdomain: "test")
+    expect(client.api_endpoint).to eq("http://test.inklinghq.com/")
+  end
+
+  it "does use a port when one is passed in" do
+    client = Inkling::Client.new(username: "user@example.com", password: "password", subdomain: "test", port: 3005)
+    expect(client.api_endpoint).to eq("http://test.inklinghq.com:3005/")
+  end
+
+end
+
+
+
